@@ -1,4 +1,4 @@
-import FormatListBulletedOutlinedIcon from '@mui/icons-material/FormatListBulletedOutlined';
+import MenuBookOutlinedIcon from '@mui/icons-material/MenuBookOutlined';
 import React from 'react';
 import "./_tasks.css";
 
@@ -6,7 +6,7 @@ import "./_tasks.css";
 function Logbook() {
     return (
         <div className="sidebar-tab">
-            <FormatListBulletedOutlinedIcon />
+            <MenuBookOutlinedIcon />
             <div className="sidebar-tab-name">
                 <h2>Logbook</h2>
             </div>

@@ -1,12 +1,12 @@
-import FormatListBulletedOutlinedIcon from '@mui/icons-material/FormatListBulletedOutlined';
 import React from 'react';
 import "./_tasks.css";
+import CalendarTodayOutlinedIcon from '@mui/icons-material/CalendarTodayOutlined';
 
 
 function Calendar() {
     return (
         <div className="sidebar-tab">
-            <FormatListBulletedOutlinedIcon />
+            <CalendarTodayOutlinedIcon />
             <div className="sidebar-tab-name">
                 <h2>Calendar</h2>
             </div>
