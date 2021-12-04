@@ -1,0 +1,7 @@
+.mainview {
+    display: flex;
+}
+
+.base {
+    flex-grow: 1;
+}
