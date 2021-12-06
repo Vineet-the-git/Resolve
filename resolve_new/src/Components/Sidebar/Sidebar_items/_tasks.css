@@ -1,18 +1,25 @@
 .sidebar-tab {
     display: flex;
-    padding: 20px;
     cursor: pointer;
-    border-bottom: 1px solid #f6f6f6;
+    align-items: center;
+    padding-left: 25px;
+    margin-right: 25px;
+    height: 40px;
+}
+
+.sidebar-tab > .MuiSvgIcon-root{
+    color: #404853;
 }
 
 .sidebar-tab:hover{
-    background-color: #e6e3e3;
+    margin-left: 30px;
+    background-image: linear-gradient(to right,#F838A2,#3156ff );
+    border-radius: 30px;
 }
 
 .sidebar-tab-name > h2 {
     font-size: 16px;
-    margin-bottom: 8px;
-
+    color: #f9fafc;
 }
 
 .sidebar-tab-name {
