@@ -25,7 +25,7 @@ export default function App() {
                     </Route>
                     <Route path="/tasks">
                         <MainLayout>
-                            <Tasks />
+                            <Tasks/>
                         </MainLayout>
                     </Route>
                     <Route path="/statistics" exact>

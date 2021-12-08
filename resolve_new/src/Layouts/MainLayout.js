@@ -1,18 +1,19 @@
 import React from 'react';
 import Sidebar from '../Components/Sidebar/Sidebar';
 import "./_mainLayout.css";
-import ButtonAppBar from "../Components/ButtonAppbar/ButtonAppBar";
+
 
 function MainLayout({ children }) {
     return (
         <div className="mainLayout">
-            <div className="button-AppBar">
-                <ButtonAppBar />
+
+            <div className="side-bar">
+                <Sidebar />
             </div>
 
-            <div className = "mainview">
-                <div className="side-bar">
-                    <Sidebar />
+            <div className="mainview">
+                <div className="title_bar">
+                    <h3>Title_bar</h3>
                 </div>
 
                 <div className="base">
