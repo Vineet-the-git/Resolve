@@ -1,30 +1,38 @@
 .sidebar{
     display: flex;
     flex-direction: column;
-    flex: 0.35;
-    width: 20vw;
     height: 100vh;
+    width: 18vw;
     background-color: #171e26;
+    min-width: 180px;
 }
 
 .sidebar_header{
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    margin:20px 0px 30px 10px;
 }
 
-.sidebar-headerRight{
+.sidebar_headerRight{
+    margin-left: 40px;
+    display: flex ;
+    justify-content: end;
+}
+
+#icon {
+    color: #404853;
+}
+
+.sidebar_items{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-width: 10vw;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-/* .sidebar-headerRight>.MuiSvgIcon-root{
-    background-color: white;
-} */
 
-.sidebar_items {
-    flex:1;
-    background-color: #171e26;
-}
+
+
+
+
+
+
+
