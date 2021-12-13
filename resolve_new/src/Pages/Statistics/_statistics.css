@@ -1,0 +1,15 @@
+.main_template{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+    height: 90vh;
+    width: 79vw;
+    column-gap: 8px;
+    row-gap: 8px;
+}
+
+.grid-item {
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px #868788;
+}   
